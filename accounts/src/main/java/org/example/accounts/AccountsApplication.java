@@ -21,10 +21,10 @@ import org.springframework.data.jpa.repository.config.EnableJpaAuditing;
 		),
 		license = @License(
 				name = "Apache 2.0"
-		)
-), externalDocs = @ExternalDocumentation(
-		description = "EazyBank Accounts microservice REST API documentation",
-		url = "example.com"
+		)),
+		externalDocs = @ExternalDocumentation(
+				description = "EazyBank Accounts microservice REST API documentation",
+				url = "example.com"
 ))
 public class AccountsApplication {
 
